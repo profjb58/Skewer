@@ -9,6 +9,7 @@ public class KebabComponent extends Component {
     @Override
     public void init(LarvalComponentData data) {
         data.loadChildren("foods");
+        data.loadChildren("component_foods");
         data.loadChildren("condiments");
     }
 
